@@ -28,14 +28,12 @@ class MainPage extends React.Component {
           // collapsed={this.state.collapsed}
           // onCollapse={this.onCollapse}
           theme='light'
-          width='160' >
+          width='256' >
           <Menu
-            onClick={this.handleClick}
-            style={{ width: 256 }}
+            onClick={this.onMenuClick}
+            style={{width: 256, padding: '180px 0' }}
             defaultSelectedKeys={['1']}
-            defaultOpenKeys={['sub1']}
-            mode="inline"
-            style={{ padding: '180px 0' }}>
+            mode="inline">
             <Menu.Item key="1">Schedule</Menu.Item>
             <Menu.Item key="2">Background</Menu.Item>
             <Menu.Item key="3">Travel</Menu.Item>
@@ -46,7 +44,7 @@ class MainPage extends React.Component {
           <Header style={{ height: '240px', background: '#fff', padding: 0 }}>
             <img src={logo} className="App-logo" alt="logo" />
           </Header>
-          <Content className="wrapper-content" style={{ margin: '60px 160px' }}>
+          <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>
               <div>
                 <Speakers />
