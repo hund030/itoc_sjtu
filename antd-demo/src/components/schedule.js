@@ -48,6 +48,7 @@ class Schedule extends React.Component {
   render() {
     return (
       <div>
+        <h2>Schedule</h2>
         <h3>Qingdao, China, Oct.18, 2018 (Room 7111B) </h3>
         <Table columns={columns} dataSource={day1} size="middle" pagination={ false } />
         <h3>Qingdao, China, Oct.19, 2018 (Room 7111B) </h3>

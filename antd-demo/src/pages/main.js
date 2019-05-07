@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Divider } from 'antd';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Schedule from '../components/schedule';
 import Speakers from '../components/speakers';
@@ -43,7 +43,7 @@ class MainPage extends React.Component {
           </Menu>
         </Sider>
         <Layout style={{background: '#fff'}}>
-          <Header style={{ height: '240px', background: '#eee', padding: 0 }}>
+          <Header style={{ height: '240px', background: '#fff', padding: 0 }}>
             <img src={logo} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 160px' }}>

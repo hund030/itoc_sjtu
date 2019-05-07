@@ -1,12 +1,20 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Divider } from 'antd';
 import Profile from '../images/profile.jpg';
 
 class Speakers extends React.Component {
   render() {
     return (
       <div>
-        <h3>Invited Speakers</h3>
+        <h2>Organizers</h2>
+        <Row type="flex" justify="space-around">
+          <Col span={4}>
+            <img src={Profile} className="organizer" alt="o" />
+            <p>o<br/>(sjtu)</p>
+          </Col>
+        </Row>
+        <Divider />
+        <h2>Invited Speakers</h2>
         <Row type="flex" justify="space-around">
           <Col span={4}>
             <img src={Profile} className="profile" alt="a" />
@@ -51,6 +59,7 @@ class Speakers extends React.Component {
             <p>eee<br/>(sjtu)</p>
           </Col>
         </Row>
+        <Divider />
       </div>
     );
   }
