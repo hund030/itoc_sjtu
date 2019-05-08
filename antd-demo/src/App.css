@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: start;
 }
 
 .App-logo {
@@ -22,6 +22,16 @@
   color: #61dafb;
 }
 
+#hpc_pic {
+  width: 80%;
+  height: 80%;
+}
+
+.sponsors {
+  height: 60px;
+  margin: 0 30px;
+}
+
 .profile {
   height: 80px;
   width: 80px;
@@ -38,10 +48,11 @@
   box-sizing: border-box;
 }
 
-h2 {
-  text-align: start;
-}
-
-h3 {
-  text-align: start;
+.intro {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
 }

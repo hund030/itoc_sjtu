@@ -1,58 +1,73 @@
 import React from 'react';
-import { Layout, Menu, Divider } from 'antd';
+import { Layout, Menu } from 'antd';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Schedule from '../components/schedule';
-import Speakers from '../components/speakers';
+import Index from '../components/Index';
+import Intro from '../components/Intro';
+import Sponsor from '../components/Sponsor';
+import Links from '../components/Links';
 import logo from '../images/logo.jpg';
 
 const { Header, Content, Footer, Sider } = Layout;
 
 class MainPage extends React.Component {
+  selectedKey = localStorage.getItem('itocSelectedKey');
 
   onMenuClick = (item) => {
-    if (item.key === '1')
-      window.location.href = '/main/CoursesList';
-    if (item.key === '2')
-      window.location.href = '/main/SurveyList';
-    if (item.key === '3')
-      window.location.href = '/main/Profile';
-    if (item.key === '4')
-      window.location.href = '/main/Report';
+    if (item.key === '1') {
+      window.location.href = '/';
+      localStorage.setItem('itocSelectedKey', '1');
+    }
+    if (item.key === '2') {
+      window.location.href = '/intro';
+      localStorage.setItem('itocSelectedKey', '2');
+    }
+    if (item.key === '4') {
+      window.location.href = '/links';
+      localStorage.setItem('itocSelectedKey', '4');
+    }
+  }
+
+  componentWillMount() {
+    if (window.location.href.indexOf('intro') !== -1) {
+      this.selectedKey = '2';
+    } else if (window.location.href.indexOf('links') !== -1) {
+      this.selectedKey = '4';
+    } else {
+      this.selectedKey = '1';
+    }
   }
 
   render() {
     return (
       <Layout style={{ minHeight: '100vh' }}>
         <Sider
-          // collapsible
-          // collapsed={this.state.collapsed}
-          // onCollapse={this.onCollapse}
           theme='light'
           width='256' >
           <Menu
             onClick={this.onMenuClick}
-            style={{width: 256, padding: '180px 0' }}
-            defaultSelectedKeys={['1']}
+            style={{width: 256, padding: '180px 0', position: 'fixed' }}
+            selectedKeys={[this.selectedKey]}
             mode="inline">
             <Menu.Item key="1">Schedule</Menu.Item>
-            <Menu.Item key="2">Background</Menu.Item>
-            <Menu.Item key="3">Travel</Menu.Item>
+            <Menu.Item key="2">Intro</Menu.Item>
             <Menu.Item key="4">Links</Menu.Item>
           </Menu>
         </Sider>
         <Layout style={{background: '#fff'}}>
-          <Header style={{ height: '240px', background: '#fff', padding: 0 }}>
+          <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
             <img src={logo} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>
               <div>
-                <Speakers />
-                <Schedule />
+                <Route exact path='/' component={Index} />
+                <Route path='/intro' component={Intro} />
+                <Route path='/links' component={Links} />
               </div>
             </BrowserRouter>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>
+          <Footer style={{ textAlign: 'center', background: '#fff' }}>
+            <Sponsor />
           </Footer>
         </Layout>
       </Layout>
