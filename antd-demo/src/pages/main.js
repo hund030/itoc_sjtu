@@ -45,16 +45,16 @@ class MainPage extends React.Component {
           width='256' >
           <Menu
             onClick={this.onMenuClick}
-            style={{width: 256, padding: '180px 0', position: 'fixed' }}
+            style={{width: 256, padding: '240px 0', position: 'fixed' }}
             selectedKeys={[this.selectedKey]}
             mode="inline">
-            <Menu.Item key="1">Schedule</Menu.Item>
-            <Menu.Item key="2">Intro</Menu.Item>
-            <Menu.Item key="4">Links</Menu.Item>
+            <Menu.Item key="1"><h3>Schedule</h3></Menu.Item>
+            <Menu.Item key="2"><h3>Intro</h3></Menu.Item>
+            <Menu.Item key="4"><h3>Links</h3></Menu.Item>
           </Menu>
         </Sider>
         <Layout style={{background: '#fff'}}>
-          <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
+          <Header style={{ textAlign: 'center', height: '250px', background: '#eee', padding: 0 }}>
             <img src={logo} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
