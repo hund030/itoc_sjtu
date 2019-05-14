@@ -48,9 +48,9 @@ class MainPage extends React.Component {
             style={{width: 256, padding: '180px 0', position: 'fixed' }}
             selectedKeys={[this.selectedKey]}
             mode="inline">
-            <Menu.Item key="1">Schedule</Menu.Item>
-            <Menu.Item key="2">Intro</Menu.Item>
-            <Menu.Item key="4">Links</Menu.Item>
+            <Menu.Item key="1" style={{fontSize: '18px' }} >Schedule</Menu.Item>
+            <Menu.Item key="2" style={{fontSize: '18px' }} >Intro</Menu.Item>
+            <Menu.Item key="4" style={{fontSize: '18px' }} >Links</Menu.Item>
           </Menu>
         </Sider>
         <Layout style={{background: '#fff'}}>
