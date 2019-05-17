@@ -27,6 +27,7 @@ import XuebinChi from '../images/XuebinChi.jpg';
 import DavidKeyes from '../images/DavidKeyes.jpg';
 import ShengzhongFeng from '../images/ShengzhongFeng.jpg';
 
+import placeHolder from '../images/placeholder.png';
 
 function General() {
   return (
@@ -34,6 +35,7 @@ function General() {
       <Profile src={NinghuiSun} cls="organizer" name="Ninghui Sun" aff="CAS-ICT" />
       <Profile src={ZeyaoMo} cls="organizer" name="Zeyao Mo" aff="CAEP-SCNS" />
       <Profile src={GuangmingTan} cls="organizer" name="Guangming Tan" aff="CAS-ICT" />
+      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
     </Row>
   )
 };
@@ -42,6 +44,9 @@ function Local() {
   return (
     <Row type="flex" justify="space-around">
       <Profile src={JamesLin} cls="organizer" name="James Lin" aff="HPC-SJTU" />
+      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
+      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
+      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
     </Row>
   )
 };
@@ -92,14 +97,13 @@ class Organizers extends React.Component {
   render() {
     return (
       <div>
-        <h2>Organizers</h2>
-        <h3>General Chairman</h3>
+        <h2>General Chairman</h2>
         <General />
-        <h3>General Chairman</h3>
+        <h2>General Chairman</h2>
         <Local />
-        <h3>Executive Committee</h3>
+        <h2>Executive Committee</h2>
         <ExecutiveComt />
-        <h3>Program Committee</h3>
+        <h2>Program Committee</h2>
         <ProgramComt />
       </div> 
     )
