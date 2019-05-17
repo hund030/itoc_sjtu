@@ -55,16 +55,6 @@ class MainPage extends React.Component {
             style={{width: 256, padding: '240px 0', position: 'fixed' }}
             selectedKeys={[this.selectedKey]}
             mode="inline">
-<<<<<<< HEAD
-            <Menu.Item key="1"><h3>Schedule</h3></Menu.Item>
-            <Menu.Item key="2"><h3>Intro</h3></Menu.Item>
-            <Menu.Item key="4"><h3>Links</h3></Menu.Item>
-          </Menu>
-        </Sider>
-        <Layout style={{background: '#fff'}}>
-          <Header style={{ textAlign: 'center', height: '250px', background: '#eee', padding: 0 }}>
-            <img src={logo} className="App-logo" alt="logo" />
-=======
             <Menu.Item key="1" style={{fontSize: '18px' }} >Schedule</Menu.Item>
             <Menu.Item key="2" style={{fontSize: '18px' }} >Intro</Menu.Item>
             <Menu.Item key="3" style={{fontSize: '18px' }} >Organizers</Menu.Item>
@@ -74,7 +64,6 @@ class MainPage extends React.Component {
         <Layout style={{background: '#fff'}}>
           <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
             <img src={title} className="App-logo" alt="logo" />
->>>>>>> 7189a6d574313551547e1cc76365c773a2b0678a
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>
