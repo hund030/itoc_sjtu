@@ -17,7 +17,7 @@ class MainPage extends React.Component {
 
   onMenuClick = (item) => {
     if (item.key === '1') {
-      window.location.href = '/codesign/intro';
+      window.location.href = '/codesign/index';
       localStorage.setItem('itocSelectedKey', '1');
     }
     if (item.key === '2') {
@@ -64,10 +64,10 @@ class MainPage extends React.Component {
             selectedKeys={[this.selectedKey]}
             mode="inline">
             <img src={Logo} alt="logo" className="Side-logo" />
-            <Menu.Item key="1" style={{fontSize: '18px' }} >Intro</Menu.Item>
-            <Menu.Item key="2" style={{fontSize: '18px' }} >Schedule</Menu.Item>
+            <Menu.Item key="1" style={{fontSize: '18px' }} >Background</Menu.Item>
             <Menu.Item key="3" style={{fontSize: '18px' }} >Organizers</Menu.Item>
             <Menu.Item key="4" style={{fontSize: '18px' }} >Speakers</Menu.Item>
+            <Menu.Item key="2" style={{fontSize: '18px' }} >Program</Menu.Item>
             <Menu.Item key="5" style={{fontSize: '18px' }} >Links</Menu.Item>
           </Menu>
         </Sider>
@@ -78,7 +78,7 @@ class MainPage extends React.Component {
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>
               <div>
-                <Route path='/codesign/intro' component={Intro} />
+                <Route path='/codesign/index' component={Intro} />
                 <Route exact path='/codesign/schedule' component={Schedule} />
                 <Route path='/codesign/links' component={Links} />
                 <Route path='/codesign/organizers' component={Organizers} />
