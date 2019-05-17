@@ -122,27 +122,27 @@ export const day1 = [{
   title: 'Workshop Goals & Expectations',
 }, {
   key: '2',
-  session: 'Exascale Roadmap (William Tang) ',
+  session: 'Exascale Roadmap ',
   time: '13:40-14:10',
-  speaker: 'Manish Parashar',
+  speaker: 'Manish Parashar', //no pic
   title: 'Overview for US - NSF',
 }, {
   key: '3',
-  session: 'Exascale Roadmap (William Tang) ',
+  session: 'Exascale Roadmap ',
   time: '14:10-14:40',
   speaker: 'Depei Qian', 
   title: 'Overview for China',
 }, {
   key: '4',
-  session: 'Exascale Roadmap (William Tang) ',
+  session: 'Exascale Roadmap ',
   time: '14:40-15:10',
   speaker: 'Thomas Schulthess', 
   title: 'Overview for Europe',
 }, {
   key: '5',
-  session: 'Exascale Roadmap (William Tang) ',
+  session: 'Exascale Roadmap ',
   time: '15:10-15:40',
-  speaker: 'Satoshi Sekiguchi', 
+  speaker: 'Satoshi Sekiguchi',  //no pic
   title: 'Overview for Japan',
 }, {
   key: '6',
@@ -166,7 +166,7 @@ export const day1 = [{
   key: '9',
   session: 'system-1',
   time: '16:50-17:20',
-  speaker: 'Kengo Nakajima (U. Tokyo)', 
+  speaker: 'Kengo Nakajima (U. Tokyo)',  //no pic
   title: 'Innovative Method for Integration of Data in the Exascale Era',
 }, {
   key: '10',
@@ -192,7 +192,7 @@ export const day2 = [{
   key: '3',
   session: 'Performance',
   time: '9:30-10:00',
-  speaker: 'Prabhat, LBNL',
+  speaker: 'Prabhat, LBNL', // no pix
   title: 'AI/DL enabled advances in Climate Modeling',
 }, {
   key: '4',
@@ -210,7 +210,7 @@ export const day2 = [{
   key: '6',
   session: 'system-2',
   time: '10:45-11:15',
-  speaker: 'Haohan Fu, Tsinghua, China',
+  speaker: 'Haohan Fu, Tsinghua, China', // no pix
   title: 'TaihuLight Vision and Plans',
 }, {
   key: '7',
@@ -240,7 +240,7 @@ export const day2 = [{
   key: '11',
   session: 'Algorithm',
   time: '14:00-14:30',
-  speaker: 'Sam Williams, LBNL',
+  speaker: 'Sam Williams, LBNL', // no pic
   title: 'Algorithmic Challenges for Deep Learning',
 }, {
   key: '12',

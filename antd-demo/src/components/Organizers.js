@@ -1,11 +1,12 @@
 import React from 'react';
-import {Row, Col, Divider } from 'antd';
+import { Row } from 'antd';
+import Profile from './Profile';
 
 import NinghuiSun from '../images/NinghuiSun.jpg';
 import ZeyaoMo from '../images/ZeyaoMo.jpg';
 import JamesLin from '../images/JamesLin.png';
 import GuangmingTan from '../images/GuangmingTan.jpg';
-import WilliamTang from '../images/WilliamTang.jpg';
+import WilliamTang from '../images/WilliamTang.png';
 import ThomasSchulthess from '../images/ThomasSchulthess.jpg';
 import Boku from '../images/boku.jpg';
 import RongTian from '../images/tr.jpg';
@@ -26,14 +27,6 @@ import XuebinChi from '../images/XuebinChi.jpg';
 import DavidKeyes from '../images/DavidKeyes.jpg';
 import ShengzhongFeng from '../images/ShengzhongFeng.jpg';
 
-function Profile(props) {
-  return (
-    <Col>
-      <img src={props.src} className={props.cls} alt={props.name} />
-      <p>{props.name}<br/>{props.aff}</p>
-    </Col>
-  )
-};
 
 function General() {
   return (
@@ -99,6 +92,7 @@ class Organizers extends React.Component {
   render() {
     return (
       <div>
+        <h2>Organizers</h2>
         <h3>General Chairman</h3>
         <General />
         <h3>General Chairman</h3>
