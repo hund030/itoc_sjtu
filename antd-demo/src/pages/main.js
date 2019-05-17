@@ -5,7 +5,7 @@ import Index from '../components/Index';
 import Intro from '../components/Intro';
 import Sponsor from '../components/Sponsor';
 import Links from '../components/Links';
-import logo from '../images/logo.jpg';
+import title from '../images/title.jpg';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -55,7 +55,7 @@ class MainPage extends React.Component {
         </Sider>
         <Layout style={{background: '#fff'}}>
           <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={title} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>
