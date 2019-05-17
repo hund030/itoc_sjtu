@@ -2,6 +2,7 @@
   "name": "antd-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://localhost/codesign",
   "dependencies": {
     "antd": "^3.9.0",
     "react-router-dom": "^4.1.1",
