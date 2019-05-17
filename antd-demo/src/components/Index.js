@@ -5,8 +5,8 @@ import Speakers from './Speakers';
 function Index() {
   return (
     <div>
-      <Speakers />
       <Schedule />
+      <Speakers />
     </div>
   )
 }
