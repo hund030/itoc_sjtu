@@ -50,8 +50,8 @@ function ExecutiveComt() {
   return (
     <Row type="flex" justify="space-around">
       <Profile src={WilliamTang} cls="organizer" name="William Tang" aff="Overseas Chair" />
-      <Profile src={ThomasSchulthess} cls="organizer" name="Thomas Schulthess" aff="Europe" />
-      <Profile src={Boku} cls="organizer" name="Taisuke Boku" aff="Japan" />
+      <Profile src={ThomasSchulthess} cls="boardOrga" name="Thomas Schulthess" aff="Europe" />
+      <Profile src={Boku} cls="boardOrga" name="Taisuke Boku" aff="Japan" />
       <Profile src={RongTian} cls="organizer" name="Rong Tian" aff="China" />
     </Row>
   )
@@ -74,7 +74,7 @@ function ProgramComt() {
       </Row>
       <Row type="flex" justify="space-around">
         <Profile src={HaihangYou} cls="organizer" name="Haihang You" aff="" />
-        <Profile src={YongDou} cls="organizer" name="Yong Dou" aff="" />
+        <Profile src={YongDou} cls="boardOrga" name="Yong Dou" aff="" />
         <Profile src={SatoshiMatsuoka} cls="organizer" name="Satoshi Matsuoka" aff="" />
         <Profile src={XianghuiXie} cls="organizer" name="Xianghui Xie" aff="" />
       </Row>

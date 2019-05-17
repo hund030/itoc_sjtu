@@ -10,7 +10,7 @@ function Card(props) {
       <Col span={12}>
         <h5>{props.name}</h5>
         <p>{props.aff}</p>
-        <p>{props.dpt}</p>
+        <div dangerouslySetInnerHTML={{__html: props.dpt}} />
       </Col>
     </Row>
   )

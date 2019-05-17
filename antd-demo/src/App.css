@@ -9,6 +9,11 @@
   height: 100%;
 }
 
+.Side-logo {
+  height: 10%;
+  width: 100%;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -42,8 +47,16 @@
 }
 
 .organizer {
-  height: 50px;
-  width: 40px;
+  height: 70px;
+  width: 55px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
+.boardOrga {
+  height: 60px;
+  width: 70px;
   margin: 10px;
   border: 2px solid #ddd;
   box-sizing: border-box;

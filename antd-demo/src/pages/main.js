@@ -5,7 +5,8 @@ import Index from '../components/Index';
 import Intro from '../components/Intro';
 import Sponsor from '../components/Sponsor';
 import Links from '../components/Links';
-import title from '../images/title.jpg';
+import Title from '../images/title.jpg';
+import Logo from '../images/logo.jpg';
 import Organizers from '../components/Organizers';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -52,9 +53,10 @@ class MainPage extends React.Component {
           width='256' >
           <Menu
             onClick={this.onMenuClick}
-            style={{width: 256, padding: '240px 0', position: 'fixed' }}
+            style={{width: 256, padding: '30px 0', position: 'fixed' }}
             selectedKeys={[this.selectedKey]}
             mode="inline">
+            <img src={Logo} alt="logo" className="Side-logo" />
             <Menu.Item key="1" style={{fontSize: '18px' }} >Schedule</Menu.Item>
             <Menu.Item key="2" style={{fontSize: '18px' }} >Intro</Menu.Item>
             <Menu.Item key="3" style={{fontSize: '18px' }} >Organizers</Menu.Item>
@@ -63,7 +65,7 @@ class MainPage extends React.Component {
         </Sider>
         <Layout style={{background: '#fff'}}>
           <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
-            <img src={title} className="App-logo" alt="logo" />
+            <img src={Title} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
             <BrowserRouter>

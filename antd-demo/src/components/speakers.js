@@ -32,9 +32,10 @@ class Speakers extends React.Component {
             cls="speaker"
             name="William Tang" 
             aff="USA"
-            dpt="Professor, Department of Astrophysical Sciences, Plasma Physics Section; 
-Executive Committee, Princeton Institute of Computational Science & Engineering, Princeton University and Principal Research Physicist, Princeton Plasma Physics Laboratory (PPPL)
-tang@pppl.gov" />
+            dpt="Professor, Department of Astrophysical Sciences, Plasma Physics Section; <br/>
+            Executive Committee, Princeton Institute of Computational Science & Engineering,
+            Princeton University and Principal Research Physicist, Princeton Plasma Physics Laboratory (PPPL) 
+            <br/>tang@pppl.gov" />
         <Divider />
         <Card
           src={PlaceHolder}
@@ -49,7 +50,7 @@ tang@pppl.gov" />
           name="Depei Qian"
           aff="China"
           dpt="Professor, Department of Computer Science, BUAA
-Director of Sino-German Joint Software Institute "/>
+            <br/>Director of Sino-German Joint Software Institute "/>
         <Divider />
         <Card
           src={ThomasSchulthess}
@@ -98,13 +99,13 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="Torsten Hoefler"
           aff="Germany"
-          dpt="Assistant Professor
-            Scalable Parallel Computing Lab
-            Computer Science Department
-            ETH Zurich
-            Universitaetsstrasse 6
-            CAB F 75
-            8092 Zurich, Switzerland
+          dpt="Assistant Professor<br/>
+            Scalable Parallel Computing Lab<br/>
+            Computer Science Department<br/>
+            ETH Zurich<br/>
+            Universitaetsstrasse 6<br/>
+            CAB F 75<br/>
+            8092 Zurich, Switzerland<br/>
             Office phone: +41 44 632 63 44 "/>
         <Divider />
         <Card
@@ -112,9 +113,8 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="Scott Klasky"
           aff="USA"
-          dpt="Distinguished Scientist and
-            Group Leader for Scientific Data
-            Oak Ridge National Laboratory
+          dpt="Distinguished Scientist and Group Leader for Scientific Data<br/>
+            Oak Ridge National Laboratory<br/>
             Oak Ridge, TN, USA "/>
         <Divider />
         <Card
@@ -122,14 +122,14 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="D.K. Panda"
           aff="USA"
-          dpt="Dept. of Computer Science and Engineering
-            Dreese Lab 785 
-            The Ohio State University
-            2015 Neil Avenue 
-            Columbus, OH-43210, USA 
-            Tel: (614) 292-5199
-            Fax: (614) 292-2911
-            Email: panda AT cse.ohio-state.edu 
+          dpt="Dept. of Computer Science and Engineering<br/>
+            Dreese Lab 785 <br/>
+            The Ohio State University<br/>
+            2015 Neil Avenue <br/>
+            Columbus, OH-43210, USA <br/>
+            Tel: (614) 292-5199<br/>
+            Fax: (614) 292-2911<br/>
+            Email: panda AT cse.ohio-state.edu <br/>
             http://web.cse.ohio-state.edu/~panda/"/>
         <Divider />
         <Card
@@ -158,7 +158,7 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="Franck Cappello"
           aff="USA"
-          dpt="Co-Director of the INRIA-Illinois Joint Laboratory on PetaScale Computing
+          dpt="Co-Director of the INRIA-Illinois Joint Laboratory on PetaScale Computing<br/>
             cappello@mcs.anl.gov "/>
         <Divider />
         <Card
@@ -166,7 +166,7 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="Yutong Lu"
           aff="China"
-          dpt="Professor of college of computer science in NUDT
+          dpt="Professor of college of computer science in NUDT<br/>
             Chief designer of Milky Way high performance systems"/>
         <Divider />
         <Card
@@ -174,14 +174,14 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="David E. Keyes"
           aff="USA"
-          dpt="Appl Phys & Appl Math 
-            Columbia University
-            200 S. W. Mudd Bldg., MC 4701 
-            500 W. 120th Street 
-            New York, NY, 10027
-            dept:	(212) 854-4458
-            fax:	(212) 854-8257
-            david.keyes@columbia.edu
+          dpt="Appl Phys & Appl Math <br/>
+            Columbia University<br/>
+            200 S. W. Mudd Bldg., MC 4701 <br/>
+            500 W. 120th Street <br/>
+            New York, NY, 10027<br/>
+            dept:	(212) 854-4458<br/>
+            fax:	(212) 854-8257<br/>
+            david.keyes@columbia.edu<br/>
             http://www.columbia.edu/~kd2112/"/>
         <Divider />
         <Card
@@ -203,7 +203,7 @@ Director of Sino-German Joint Software Institute "/>
           cls="speaker"
           name="Tim Germann"
           aff=""
-          dpt="Los Alamos National Laboratory
+          dpt="Los Alamos National Laboratory<br/>
             tcg@lanl.gov"/>
         <Divider />
         <Card
