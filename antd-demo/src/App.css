@@ -24,8 +24,8 @@
 }
 
 #hpc_pic {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 }
 
 .sponsors {
@@ -37,15 +37,15 @@
   height: 80px;
   width: 80px;
   margin: 10px 0;
-  border: 4px solid #ddd;
+  border: 2px solid #ddd;
   box-sizing: border-box;
 }
 
 .organizer {
-  height: 120px;
-  width: 120px;
-  margin: 10px 0;
-  border: 4px solid #ddd;
+  height: 50px;
+  width: 40px;
+  margin: 10px;
+  border: 2px solid #ddd;
   box-sizing: border-box;
 }
 
