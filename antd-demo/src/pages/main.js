@@ -75,7 +75,7 @@ class MainPage extends React.Component {
         </Sider>
           <div className="mainLayout">
             <Layout style={{background: '#fff'}}>
-              <Header style={{ textAlign: 'center', height: '280px', background: '#eee', padding: 0 }}>
+              <Header style={{ textAlign: 'center', height: '280px', backgroundImage: 'linear-gradient(#d8caee, #fff)', padding: 0 }}>
                 <img src={Title} className="App-logo" alt="logo" />
               </Header>
               <Content className="wrapper-content" style={{ margin: '60px 10%', minWidth: '640px'}}>
