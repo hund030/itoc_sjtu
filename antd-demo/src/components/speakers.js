@@ -13,6 +13,7 @@ import KengoNakajima from '../images/KengoNakajima.jpg';
 import ManishParashar from '../images/ManishParashar.jpg';
 import PeteBeckman from '../images/PeteBeckman.jpg';
 import Probhat from '../images/Probhat.jpg';
+import SamWilliam from '../images/SamuleWilliam.jpg'
 import ScottKlasky from '../images/ScottKlasky.jpg';
 import Sekiguchi from '../images/Sekiguchi.png';
 import ThomasSchulthess from '../images/ThomasSchulthess.jpg';
@@ -182,8 +183,8 @@ class Speakers extends React.Component {
             http://www.columbia.edu/~kd2112/"/>
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={SamWilliam}
+          cls="speaker"
           name="Sam Williams"
           aff=""
           dpt=""/>
