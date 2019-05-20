@@ -52,3 +52,8 @@
   font-weight: 400;
   line-height: 20px;
 }
+
+.mainLayout {
+  flex: 0 0 calc(60% + 500px);
+  overflow-x: auto;
+}

@@ -59,10 +59,10 @@ class MainPage extends React.Component {
       <Layout style={{ minHeight: '100vh' }}>
         <Sider
           theme='light'
-          width='256' >
+          width='200' >
           <Menu
             onClick={this.onMenuClick}
-            style={{width: 256, padding: '30px 0', position: 'fixed' }}
+            style={{width: 200, padding: '30px 0', position: 'sticky', top: 0 }}
             selectedKeys={[this.selectedKey]}
             mode="inline">
             <img src={Logo} alt="logo" className="Side-logo" />
@@ -73,24 +73,26 @@ class MainPage extends React.Component {
             <Menu.Item key="5" style={{fontSize: '18px' }} >Links</Menu.Item>
           </Menu>
         </Sider>
-        <Layout style={{background: '#fff'}}>
-          <Header style={{ textAlign: 'center', height: '280px', background: '#eee', padding: 0 }}>
-            <img src={Title} className="App-logo" alt="logo" />
-          </Header>
-          <Content className="wrapper-content" style={{ margin: '60px 20%', minWidth: '500px'}}>
-            <BrowserRouter>
-              <div>
-                <Route path='/codesign/index' component={Intro} />
-                <Route exact path='/codesign/schedule' component={Schedule} />
-                <Route path='/codesign/links' component={Links} />
-                <Route path='/codesign/organizers' component={Organizers} />
-                <Route path='/codesign/speakers' component={Speakers} />
-              </div>
-            </BrowserRouter>
-          </Content>
-          <Footer style={{ textAlign: 'center', background: '#fff' }}>
-          </Footer>
-        </Layout>
+          <div className="mainLayout">
+            <Layout style={{background: '#fff'}}>
+              <Header style={{ textAlign: 'center', height: '280px', background: '#eee', padding: 0 }}>
+                <img src={Title} className="App-logo" alt="logo" />
+              </Header>
+              <Content className="wrapper-content" style={{ margin: '60px 10%', minWidth: '640px'}}>
+                <BrowserRouter>
+                  <div>
+                    <Route path='/codesign/index' component={Intro} />
+                    <Route exact path='/codesign/schedule' component={Schedule} />
+                    <Route path='/codesign/links' component={Links} />
+                    <Route path='/codesign/organizers' component={Organizers} />
+                    <Route path='/codesign/speakers' component={Speakers} />
+                  </div>
+                </BrowserRouter>
+              </Content>
+              <Footer style={{ textAlign: 'center', background: '#fff' }}>
+              </Footer>
+            </Layout>
+          </div>
       </Layout>
     );
   }
