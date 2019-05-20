@@ -41,14 +41,16 @@ class MainPage extends React.Component {
   componentWillMount() {
     if (window.location.href.indexOf('schedule') !== -1) {
       this.selectedKey = '2';
-    } else if (window.location.href.indexOf('organ') !== -1) {
+    } else if (window.location.href.indexOf('organizers') !== -1) {
       this.selectedKey = '3';
-    } else if (window.location.href.indexOf('speak') !== -1) {
+    } else if (window.location.href.indexOf('speakers') !== -1) {
       this.selectedKey = '4';
-    } else if (window.location.href.indexOf('link') !== -1) {
+    } else if (window.location.href.indexOf('links') !== -1) {
       this.selectedKey = '5';
-    } else {
+    } else if (window.location.href.indexOf('index') !== -1) {
       this.selectedKey = '1';
+    } else if (window.location.href.indexOf('codesign') !== -1) {
+      window.location.href = '/codesign/index';
     }
   }
 
@@ -72,7 +74,7 @@ class MainPage extends React.Component {
           </Menu>
         </Sider>
         <Layout style={{background: '#fff'}}>
-          <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
+          <Header style={{ textAlign: 'center', height: '280px', background: '#eee', padding: 0 }}>
             <img src={Title} className="App-logo" alt="logo" />
           </Header>
           <Content className="wrapper-content" style={{ margin: '60px 20%', minWidth: '500px'}}>

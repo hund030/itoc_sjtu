@@ -10,18 +10,8 @@
 }
 
 .Side-logo {
-  height: 10%;
-  width: 100%;
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #e2f1f1;
+  margin: 10%;
+  width: 50%;
 }
 
 .App-link {
@@ -40,23 +30,15 @@
 
 .speaker {
   height: 100px;
-  width: 80px;
+  width: 100px;
   margin: 10px 0;
   border: 2px solid #ddd;
   box-sizing: border-box;
 }
 
 .organizer {
-  height: 85px;
-  width: 70px;
-  margin: 10px;
-  border: 2px solid #ddd;
-  box-sizing: border-box;
-}
-
-.boardOrga {
-  height: 60px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   margin: 10px;
   border: 2px solid #ddd;
   box-sizing: border-box;

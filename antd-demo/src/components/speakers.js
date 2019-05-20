@@ -2,22 +2,26 @@ import React from 'react';
 import { Divider } from 'antd';
 import Card from './Card';
 
-import WilliamTang from '../images/WilliamTang.png';
-import ManishParashar from '../images/ManishParashar.jpg';
+import DavidKeyes from '../images/DavidE_Keyes.jpg';
 import DepeiQian from '../images/DepeiQian.jpg';
-import ThomasSchulthess from '../images/ThomasSchulthess.jpg';
-import PeteBeckman from '../images/PeteBeckman.jpg';
-import XuebinChi from '../images/XuebinChi.jpg';
-import ZhongJin from '../images/ZhongJin.jpg';
-import TorstenHoefler from '../images/TorstenHoefler.jpg';
-import ScottKlasky from '../images/ScottKlasky.jpg';
 import DKPanda from '../images/dk_panda.jpg';
 import FranckCappello from '../images/Franck_Cappello.jpg';
-import YutongLu from '../images/YutongLu.jpg';
-import DavidKeyes from '../images/DavidE_Keyes.jpg';
 import GuangmingTan from '../images/GuangmingTan.jpg';
-import TimGermann from '../images/tim_germann.jpg';
+import HaohengFu from '../images/HaohengFu.jpg';
 import JamesLin from '../images/JamesLin.png';
+import KengoNakajima from '../images/KengoNakajima.jpg';
+import ManishParashar from '../images/ManishParashar.jpg';
+import PeteBeckman from '../images/PeteBeckman.jpg';
+import Probhat from '../images/Probhat.jpg';
+import ScottKlasky from '../images/ScottKlasky.jpg';
+import Sekiguchi from '../images/Sekiguchi.png';
+import ThomasSchulthess from '../images/ThomasSchulthess.jpg';
+import TimGermann from '../images/tim_germann.jpg';
+import TorstenHoefler from '../images/TorstenHoefler.jpg';
+import WilliamTang from '../images/WilliamTang.png';
+import XuebinChi from '../images/XuebinChi.jpg';
+import YutongLu from '../images/YutongLu.jpg';
+import ZhongJin from '../images/ZhongJin.jpg';
 import PlaceHolder from '../images/placeholder.png';
 
 class Speakers extends React.Component {
@@ -60,8 +64,8 @@ class Speakers extends React.Component {
           dpt="Director of the Swiss National Supercomputing Centre (CSCS) at Lugano "/>
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={Sekiguchi}
+          cls="speaker"
           name="Satoshi Sekiguchi"
           aff="Japan"
           dpt=""/>
@@ -88,8 +92,8 @@ class Speakers extends React.Component {
           dpt=""/>
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={KengoNakajima}
+          cls="speaker"
           name="Kengo Nakajima"
           aff="Japan"
           dpt=""/>
@@ -133,15 +137,15 @@ class Speakers extends React.Component {
             http://web.cse.ohio-state.edu/~panda/"/>
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={Probhat}
+          cls="speaker"
           name="Prabhat"
           aff=""
           dpt=""/>
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={HaohengFu}
+          cls="speaker"
           name="Haohan Fu"
           aff="China"
           dpt=""/>
