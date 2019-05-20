@@ -47,7 +47,9 @@ class Speakers extends React.Component {
           cls="speaker"
           name="Manish Parashar"
           aff="NSF"
-          dpt="parashar@ored.rutgers.edu "/>
+          dpt="Director of the Office of Advanced Cyberinfrastructure (OAC) 
+              at the US National Science Foundation (NSF) and Distinguished Professor of Computer Science at Rutgers
+              <br/>parashar@ored.rutgers.edu "/>
         <Divider />
         <Card
           src={DepeiQian}

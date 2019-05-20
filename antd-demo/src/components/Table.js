@@ -122,8 +122,8 @@ export const day1 = [{
   key: '2',
   session: 'Exascale Roadmap ',
   time: '13:40-14:10',
-  speaker: 'Manish Parashar', //no pic
-  title: 'Overview for US - NSF',
+  speaker: 'Manish Parashar',
+  title: ' Rethinking NSF’s Computational Ecosystem for 21st Century Science and Engineering.',
 }, {
   key: '3',
   session: 'Exascale Roadmap ',
@@ -164,7 +164,7 @@ export const day1 = [{
   key: '9',
   session: 'system-1',
   time: '16:50-17:20',
-  speaker: 'Kengo Nakajima (U. Tokyo)',  //no pic
+  speaker: 'Kengo Nakajima (U. Tokyo)',
   title: 'Innovative Method for Integration of Data in the Exascale Era',
 }, {
   key: '10',
@@ -232,7 +232,7 @@ export const day2 = [{
   key: '11',
   session: 'Algorithm',
   time: '14:00-14:30',
-  speaker: 'Sam Williams, LBNL', // no pic
+  speaker: 'Sam Williams, LBNL',
   title: 'Algorithmic Challenges for Deep Learning',
 }, {
   key: '12',

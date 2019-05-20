@@ -17,23 +17,23 @@ class MainPage extends React.Component {
 
   onMenuClick = (item) => {
     if (item.key === '1') {
-      window.location.href = '/codesign/index';
+      window.location.href = '/codesign19/index';
       localStorage.setItem('itocSelectedKey', '1');
     }
     if (item.key === '2') {
-      window.location.href = '/codesign/schedule';
+      window.location.href = '/codesign19/schedule';
       localStorage.setItem('itocSelectedKey', '2');
     }
     if (item.key === '3') {
-      window.location.href = '/codesign/organizers';
+      window.location.href = '/codesign19/organizers';
       localStorage.setItem('itocSelectedKey', '3');
     }
     if (item.key === '4') {
-      window.location.href = '/codesign/speakers';
+      window.location.href = '/codesign19/speakers';
       localStorage.setItem('itocSelectedKey', '4');
     }
     if (item.key === '5') {
-      window.location.href = '/codesign/links';
+      window.location.href = '/codesign19/links';
       localStorage.setItem('itocSelectedKey', '5');
     }
   }
@@ -49,8 +49,8 @@ class MainPage extends React.Component {
       this.selectedKey = '5';
     } else if (window.location.href.indexOf('index') !== -1) {
       this.selectedKey = '1';
-    } else if (window.location.href.indexOf('codesign') !== -1) {
-      window.location.href = '/codesign/index';
+    } else if (window.location.href.indexOf('codesign19') !== -1) {
+      window.location.href = '/codesign19/index';
     }
   }
 
@@ -81,11 +81,11 @@ class MainPage extends React.Component {
               <Content className="wrapper-content" style={{ margin: '60px 10%', minWidth: '640px'}}>
                 <BrowserRouter>
                   <div>
-                    <Route path='/codesign/index' component={Intro} />
-                    <Route exact path='/codesign/schedule' component={Schedule} />
-                    <Route path='/codesign/links' component={Links} />
-                    <Route path='/codesign/organizers' component={Organizers} />
-                    <Route path='/codesign/speakers' component={Speakers} />
+                    <Route path='/codesign19/index' component={Intro} />
+                    <Route exact path='/codesign19/schedule' component={Schedule} />
+                    <Route path='/codesign19/links' component={Links} />
+                    <Route path='/codesign19/organizers' component={Organizers} />
+                    <Route path='/codesign19/speakers' component={Speakers} />
                   </div>
                 </BrowserRouter>
               </Content>
