@@ -1,5 +1,4 @@
 import React from 'react';
-import HPC from '../images/hpc_2016.png';
 
 class Intro extends React.Component {
   render() {
@@ -12,8 +11,6 @@ class Intro extends React.Component {
         <p className="intro"> &nbsp;&nbsp;&nbsp;&nbsp; Co-design, in the most basic sense, engages the necessary collaborations between hardware designers, computer scientists, applied mathematicians, and computational science experts in multiple application domains to carry out the essential interdisciplinary research that will enable harvesting in a timely way the scientific and technological benefits as HPC hardware moves forward to extreme scales. </p>
         <p className="intro"> &nbsp;&nbsp;&nbsp;&nbsp; Following the successes of CoDesign2011, 2012, 2013, 2014, 2015 and 2016, 2017, the eighth international workshop CoDesign 2018 will be held on October 18-20, 2018 in QingDao, ShanDong, China. It is an official part of HPC China as one of most important international events of the largest annual domestic conference on HPC in China. </p>
         <p className="intro"> &nbsp;&nbsp;&nbsp;&nbsp; The primary motivation for the international workshop is to enable productive and timely interdisciplinary discussions with focus on stimulating progress in domain applications that engage extreme-scale computing. This features new challenges and opportunities encountered in the development of software-hardware needed for computing at the extreme scale. By gathering insights from successful experiences in petascale applications, it is hoped that this workshop will help optimize a converged co-design path toward computing at the extreme scale and associated big data challenges. To provide some context and background information, the web-site for the previous international exascale Co-Design workshop hosted by China can be found at here. </p>
-        <p > &nbsp; </p>
-        <img src={HPC} id="hpc_pic" alt="hpc" />
       </div>
     )
   }

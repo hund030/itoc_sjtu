@@ -24,7 +24,7 @@ import SatoshiMatsuoka from '../images/SatoshiMatsuoka.jpg';
 import XianghuiXie from '../images/XianghuiXie.jpg';
 import PeteBeckman from '../images/PeteBeckman.jpg';
 import XuebinChi from '../images/XuebinChi.jpg';
-import DavidKeyes from '../images/DavidKeyes.jpg';
+import DavidKeyes from '../images/DavidE_Keyes.jpg';
 import ShengzhongFeng from '../images/ShengzhongFeng.jpg';
 
 import placeHolder from '../images/placeholder.png';
@@ -34,7 +34,7 @@ function General() {
     <Row type="flex" justify="space-around">
       <Profile src={NinghuiSun} cls="organizer" name="Ninghui Sun" aff="CAS-ICT" />
       <Profile src={ZeyaoMo} cls="organizer" name="Zeyao Mo" aff="CAEP-SCNS" />
-      <Profile src={GuangmingTan} cls="organizer" name="Guangming Tan" aff="CAS-ICT" />
+      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
       <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
     </Row>
   )
@@ -44,7 +44,7 @@ function Local() {
   return (
     <Row type="flex" justify="space-around">
       <Profile src={JamesLin} cls="organizer" name="James Lin" aff="HPC-SJTU" />
-      <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
+      <Profile src={GuangmingTan} cls="organizer" name="Guangming Tan" aff="CAS-ICT" />
       <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
       <Profile src={placeHolder} cls="placeHolder" name="" aff="" />
     </Row>

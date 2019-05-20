@@ -84,12 +84,10 @@ export const columns2 = [{
     };
     if (index === 0) {
       obj.props.rowSpan = 2;
-    } else if (index === 8 || index === 12) {
+    } else if (index === 3 || index === 7 || index === 11) {
       obj.props.rowSpan = 3;
-    } else if ((index === 1) || (index >= 4 && index <= 6) || (index >= 9 && index <= 10) || (index >= 13 && index <= 14)) {
+    } else if ((index === 1) || (index >= 4 && index <= 5) || (index >= 8 && index <= 9) || (index >= 12 && index <= 13)) {
       obj.props.rowSpan = 0;
-    } else if (index === 3) {
-      obj.props.rowSpan = 4;
     }
     return obj;
   },
@@ -200,12 +198,6 @@ export const day2 = [{
   time: '10:00-10:15',
   speaker: '',
   title: 'Coffee Break',
-}, {
-  key: '5',
-  session: 'system-2',
-  time: '10:15-10:45',
-  speaker: 'Taisuke Boku, Japan',
-  title: 'Hybrid Accelerated Parallel Computing: GPU+FPGA=?',
 }, {
   key: '6',
   session: 'system-2',

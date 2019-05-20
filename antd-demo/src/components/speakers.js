@@ -3,18 +3,18 @@ import { Divider } from 'antd';
 import Card from './Card';
 
 import WilliamTang from '../images/WilliamTang.png';
+import ManishParashar from '../images/ManishParashar.jpg';
 import DepeiQian from '../images/DepeiQian.jpg';
 import ThomasSchulthess from '../images/ThomasSchulthess.jpg';
 import PeteBeckman from '../images/PeteBeckman.jpg';
 import XuebinChi from '../images/XuebinChi.jpg';
 import ZhongJin from '../images/ZhongJin.jpg';
-import TorstenHoefler from '../images/Torsten_Hoefler.jpg';
-import ScottKlasky from '../images/ScottKlasky.png';
+import TorstenHoefler from '../images/TorstenHoefler.jpg';
+import ScottKlasky from '../images/ScottKlasky.jpg';
 import DKPanda from '../images/dk_panda.jpg';
-import Boku from '../images/TaisukeBoku.jpg';
 import FranckCappello from '../images/Franck_Cappello.jpg';
-import YutongLu from '../images/luyutong.jpg';
-import DavidKeyes from '../images/David_Keyes.jpg';
+import YutongLu from '../images/YutongLu.jpg';
+import DavidKeyes from '../images/DavidE_Keyes.jpg';
 import GuangmingTan from '../images/GuangmingTan.jpg';
 import TimGermann from '../images/tim_germann.jpg';
 import JamesLin from '../images/JamesLin.png';
@@ -38,8 +38,8 @@ class Speakers extends React.Component {
             <br/>tang@pppl.gov" />
         <Divider />
         <Card
-          src={PlaceHolder}
-          cls="placeholder"
+          src={ManishParashar}
+          cls="speaker"
           name="Manish Parashar"
           aff="NSF"
           dpt="parashar@ored.rutgers.edu "/>
@@ -138,13 +138,6 @@ class Speakers extends React.Component {
           name="Prabhat"
           aff=""
           dpt=""/>
-        <Divider />
-        <Card
-          src={Boku}
-          cls="speaker"
-          name="Taisuke Boku"
-          aff="Japan"
-          dpt="Professor, Department of Computer Science, Center for Computational Sciences, University of Tsukuba "/>
         <Divider />
         <Card
           src={PlaceHolder}

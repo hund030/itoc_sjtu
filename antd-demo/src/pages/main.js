@@ -75,7 +75,7 @@ class MainPage extends React.Component {
           <Header style={{ textAlign: 'center', height: '240px', background: '#fff', padding: 0 }}>
             <img src={Title} className="App-logo" alt="logo" />
           </Header>
-          <Content className="wrapper-content" style={{ margin: '60px 320px' }}>
+          <Content className="wrapper-content" style={{ margin: '60px 20%', minWidth: '500px'}}>
             <BrowserRouter>
               <div>
                 <Route path='/codesign/index' component={Intro} />
